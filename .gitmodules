@@ -4,3 +4,6 @@
 [submodule "labMatrix"]
 	path = labMatrix
 	url = https://github.com/NikitaShlyamin/labMatrix
+[submodule "labVec"]
+	path = labVec
+	url = https://github.com/NikitaShlyamin/labVec
