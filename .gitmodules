@@ -1,3 +1,6 @@
 [submodule "labGraphs"]
 	path = labGraphs
 	url = https://github.com/NikitaShlyamin/labGraphs
+[submodule "labMatrix"]
+	path = labMatrix
+	url = https://github.com/NikitaShlyamin/labMatrix
