@@ -1,0 +1,3 @@
+[submodule "labGraphs"]
+	path = labGraphs
+	url = https://github.com/NikitaShlyamin/labGraphs
