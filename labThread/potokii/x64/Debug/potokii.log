@@ -1,0 +1,60 @@
+﻿  potokii.cpp
+C:\Users\User\main-repo\labThread\potokii\potokii.cpp(156,38): warning C4244: аргумент: преобразование "_Rep" в "double", возможна потеря данных
+C:\Users\User\main-repo\labThread\potokii\potokii.cpp(156,38): warning C4244:         with
+C:\Users\User\main-repo\labThread\potokii\potokii.cpp(156,38): warning C4244:         [
+C:\Users\User\main-repo\labThread\potokii\potokii.cpp(156,38): warning C4244:             _Rep=__int64
+C:\Users\User\main-repo\labThread\potokii\potokii.cpp(156,38): warning C4244:         ]
+      C:\Users\User\main-repo\labThread\potokii\potokii.cpp(156,38):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          C:\Users\User\main-repo\labThread\potokii\potokii.cpp(172,23):
+          выполняется компиляция ссылки на экземпляр класс шаблон функции "VectorRam<double>"
+          C:\Users\User\main-repo\labThread\potokii\potokii.cpp(147,19):
+          во время компиляции функции-члена класс шаблон "FuncResult<T> VectorRam<T>::SumFR(size_t,size_t,unsigned int)"
+          with
+          [
+              T=double
+          ]
+              C:\Users\User\main-repo\labThread\potokii\potokii.cpp(205,29):
+              см. первую ссылку на "VectorRam<double>::SumFR" в "main"
+  
+C:\Users\User\main-repo\labThread\potokii\potokii.cpp(139,38): warning C4244: аргумент: преобразование "_Rep" в "double", возможна потеря данных
+C:\Users\User\main-repo\labThread\potokii\potokii.cpp(139,38): warning C4244:         with
+C:\Users\User\main-repo\labThread\potokii\potokii.cpp(139,38): warning C4244:         [
+C:\Users\User\main-repo\labThread\potokii\potokii.cpp(139,38): warning C4244:             _Rep=__int64
+C:\Users\User\main-repo\labThread\potokii\potokii.cpp(139,38): warning C4244:         ]
+      C:\Users\User\main-repo\labThread\potokii\potokii.cpp(139,38):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          C:\Users\User\main-repo\labThread\potokii\potokii.cpp(130,19):
+          во время компиляции функции-члена класс шаблон "FuncResult<T> VectorRam<T>::SumFR(size_t,size_t)"
+          with
+          [
+              T=double
+          ]
+              C:\Users\User\main-repo\labThread\potokii\potokii.cpp(196,25):
+              см. первую ссылку на "VectorRam<double>::SumFR" в "main"
+  
+C:\Users\User\main-repo\labThread\potokii\potokii.cpp(17,31): warning C4244: инициализация: преобразование "double" в "__int64", возможна потеря данных
+      C:\Users\User\main-repo\labThread\potokii\potokii.cpp(17,31):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          C:\Users\User\main-repo\labThread\potokii\potokii.cpp(192,20):
+          выполняется компиляция ссылки на экземпляр класс шаблон функции "FuncResult<T>"
+          with
+          [
+              T=double
+          ]
+          C:\Users\User\main-repo\labThread\potokii\potokii.cpp(16,5):
+          во время компиляции функции-члена класс шаблон "FuncResult<T>::FuncResult(T,double)"
+          with
+          [
+              T=double
+          ]
+              C:\Users\User\main-repo\labThread\potokii\potokii.cpp(156,9):
+              см. первую ссылку на "FuncResult<T>::FuncResult" в "VectorRam<double>::SumFR"
+          with
+          [
+              T=double
+          ]
+              C:\Users\User\main-repo\labThread\potokii\potokii.cpp(205,29):
+              см. первую ссылку на "VectorRam<double>::SumFR" в "main"
+  
+  potokii.vcxproj -> C:\Users\User\main-repo\labThread\x64\Debug\potokii.exe
